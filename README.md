@@ -19,6 +19,7 @@ Explanation:
 Screenshot
 ----------
 ![Main Screen - Windows](images/1.png)
+![Demo on Linux](images/2.gif)
 
 
 
