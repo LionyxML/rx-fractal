@@ -1,5 +1,5 @@
-rFractal[X]
-------------
+rx-fractal
+-----------
 
 This is a python3/tk written software to generate a fractal between 3 points given random numbers.
 

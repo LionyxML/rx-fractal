@@ -3,6 +3,7 @@
 # Programa: Gerador Fractal através de números aleatórios
 # Autor   : Rahul Martim Juliato
 # Versão  : 0.1  - 16.10.2018
+# Versão  : 0.2  - 29.12.2019 
 
 
 #---===[0. Bibliotecas]===---
@@ -31,15 +32,17 @@ def quit():
 def sobre():
     """ Mostra as informações do programa
     """
-    mb.showinfo("r[SISLIN]X",'''
+    mb.showinfo("rx-fractal",'''
 
-r[SISLIN]X
-Solucionador de Sistemas Lineares
+rx-fractal
+
+Fractal generator
 
 Versão: 0.1
 
-Autor: Rahul Martim Juliato
-(rahul.juliato@gmail.com)
+Rahul Martim Juliato
+rahul.juliato@gmail.com
+www.rahuljuliato.com
 
 ''')
 
@@ -108,7 +111,7 @@ def limpar():
 # 2.0. Definições principais da janela
 janela = tk.Tk()
 #janela.geometry("500x200")
-janela.wm_title('r[fractal]X v0.1')
+janela.wm_title('rx-fractal  v0.1')
 janela.wm_minsize(380,220)
 janela.grid_anchor(anchor='c')
 #janela.tk_setPalette('gray')
